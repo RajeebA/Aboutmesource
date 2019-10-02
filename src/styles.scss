@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+.gj-icon 
+{
+    padding: 15px !important;
+    top:-1px !important;
+}
+.gj-dropdown-bootstrap-4
+{
+    top:1px !important;
+}
+
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.select2-container .select2-selection--single
+{
+    height: calc(2.25rem + 10px) !important;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+    border: 0;
+    transition: box-shadow .15s ease;
+    font-size: 0.875rem;
+    padding: 0.625rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #8898aa !important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #cad1d7;
+    border-radius: 0.375rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow
+{
+    top:10px !important;
+}
